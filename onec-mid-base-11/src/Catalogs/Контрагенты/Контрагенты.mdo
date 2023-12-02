@@ -603,85 +603,18 @@
       <key>ru</key>
       <value>Контактные лица</value>
     </synonym>
-    <attributes uuid="346ddeb9-7390-41d0-a366-6322b8dcc7ea">
-      <name>ФИО</name>
+    <attributes uuid="c9640aa5-db9b-4cad-ad2d-0e97cc1cbd91">
+      <name>КонтактноеЛицо</name>
       <synonym>
         <key>ru</key>
-        <value>ФИО</value>
+        <value>Контактное лицо</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
+        <types>CatalogRef.КонтакныеЛица</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="f53bb096-c0a6-40e1-adf5-cd3f51839d8f">
-      <name>Телефон</name>
-      <synonym>
-        <key>ru</key>
-        <value>Телефон</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="63a864fb-6210-4264-b71a-5d607f06122d">
-      <name>Должность</name>
-      <synonym>
-        <key>ru</key>
-        <value>Должность</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Должности</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="1a22a332-d7a0-4711-a3bd-3a0704c88b65">
-      <name>ДействуетНаОсновании</name>
-      <synonym>
-        <key>ru</key>
-        <value>Действует на основании</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="330941fa-f35a-4773-a928-1819a6aff762">
-      <name>Заметка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Заметка</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
